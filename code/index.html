@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BuscaPosts-JsonPlaceholder</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Div principal -->
+    <div class="div-main">
+      <!-- Div do Header + link -->
+      <div class="div-header">
+        <h2 class="title">Buscador de Posts</h2>
+        <p class="subtitle">
+          API
+          <a
+            class="link"
+            href="https://jsonplaceholder.typicode.com"
+            target="_blank"
+          >
+            JsonPlaceHolder
+          </a>
+        </p>
+        <div class="div-btn">
+          <button id="btn-busca" class="btn">Buscar</button>
+          <button id="btn-limpa" class="btn">Limpar</button>
+        </div>
+      </div>
+      <!-- Div pai Posts -->
+      <div class="div-post">
+        <h3 class="title">Posts encontrados</h3>
+        <div id="div-result" class="div-result"></div>
+      </div>
+      <!--  -->
+    </div>
+    <!--  -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
