@@ -49,11 +49,11 @@ function postsCarregados(data) {
   divPosts.innerHTML = "";
   divPost.classList.add("visible");
 
-  data.slice(0, 10).forEach((post) => {
+  data.slice(0, 4).forEach((post) => {
     divPosts.innerHTML += `
         <div class="posts">
-            <p><strong>Title </strong>${post.title}</p>
-            <p><strong>Body </strong>${post.body}</p>
+            <p><strong>Titulo: </strong>${post.title}</p>
+            <p><strong>Mensagem: </strong>${post.body}</p>
         </div>
     `;
   });

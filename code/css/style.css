@@ -6,23 +6,22 @@
 
 html {
   font-family: sans-serif;
+  background-color: #f0f0f0;
 }
 
 .div-main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 32px;
+  padding: 16px;
   height: 100%;
   width: 100%;
-
-  background-color: #c1c1c1;
 }
 
 .div-header {
-  padding: 32px;
-  margin: 32px;
-  height: 256px;
+  padding: 16px;
+  margin: 16px;
+  /* height: 256px; */
   width: 512px;
 
   background-color: #fff;
@@ -89,4 +88,11 @@ html {
 
 .posts {
   padding: 0 12px 12px 0;
+  border: 2px solid #258;
+  border-radius: 4px;
+  margin-bottom: 6px;
+}
+
+.posts p {
+  padding: 6px 4px 4px 6px;
 }
